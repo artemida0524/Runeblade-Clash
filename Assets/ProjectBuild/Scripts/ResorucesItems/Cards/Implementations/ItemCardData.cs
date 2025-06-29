@@ -7,7 +7,7 @@ namespace Game.Core.ResourceItem.Card
     {
         public StarType StarType { get; protected set; }
 
-        public ItemCardData(string name, StarType starType) : base(name, ItemType.Card)
+        public ItemCardData(string name, StarType starType) : base(name)
         {
             StarType = starType;
         }
