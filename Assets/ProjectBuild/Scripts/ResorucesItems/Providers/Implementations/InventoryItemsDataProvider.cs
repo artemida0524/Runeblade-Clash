@@ -6,7 +6,7 @@ using UnityEngine;
 
 namespace Game.Core.ResourceItem.Provider
 {
-    public class InventoryItemsProvider : IInventoryItemsProvider
+    public class InventoryItemsDataProvider : IInventoryItemsDataProvider
     {
         public IEnumerable<IInventoryItemData> Items => _items.Values.SelectMany(itemList => itemList);
 

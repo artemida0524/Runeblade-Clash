@@ -4,7 +4,7 @@ using System.Collections.Generic;
 
 namespace Game.Core.ResourceItem.Provider
 {
-	public interface IInventoryItemsProvider
+	public interface IInventoryItemsDataProvider
 	{
 		IEnumerable<IInventoryItemData> Items { get; }
 

@@ -6,7 +6,7 @@ using UnityEngine;
 
 public class TestResources : MonoBehaviour
 {
-    private IInventoryItemsProvider _inventoryItemsProvider = new InventoryItemsProvider();
+    private IInventoryItemsDataProvider _inventoryItemsProvider = new InventoryItemsDataProvider();
 
     private void Start()
     {
